@@ -1,0 +1,123 @@
+.AllForum
+{
+    align-items: center;
+    margin: 100px;
+    text-align: center;
+    color: #750671;
+
+}
+
+.createforum, .showposts
+{
+    border: 1.5px solid #750671;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+
+.createforum h2 , .showposts h2
+{
+    align-items: top;
+}
+
+.createforum .title, .createforum .author, .createforum .context
+{
+    margin-left: 50px;
+    padding: 50px;
+}
+
+.showposts .post
+{
+    border: 1.5px solid #750671;
+    margin-bottom: 20px;
+}
+
+.showposts .post .title
+{
+    text-decoration: underline;
+}
+
+.showposts .post .author
+{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.createforum {
+    /* max-width: 600px; */
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .createforum h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .createforum .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .createforum .form input,
+  .createforum .form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .createforum .form textarea {
+    height: 200px;
+  }
+  
+  .createforum .form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #750671;
+    background-color: #ffffff;
+    border: 1.3px solid ;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  
+  .createforum .form button:hover {
+    background-color: #750671;
+    color: white;
+    transition: all 0.3s ease-out;
+  }
+
+  .showposts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .showposts h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .post .author {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .post p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,67 @@
+
+.login-img{
+    background-color: white;
+    background-size: cover;
+    height: 620px;
+    width: 650px;
+    display: flex;
+    
+}
+.whiteout{
+    color: white;
+}
+.login-info{
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    position: absolute;
+    /* height: 350px; */
+    /* margin-top: 1px; */
+    /* margin-top: -px; */
+    margin-top: -10px;
+    color: #750671;
+    width: 400px;
+    margin-left: 110px;
+    /* margin-top: 100px; */
+    background-color: rgba(255, 255, 255, 0.637);
+    box-shadow: 0 8px 32px 0 #750671;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 10px;
+    border: 1px outset whitesmoke;
+    /* font-size: small; */
+}
+
+.login-container{
+
+    
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -620px;
+    width: 613px;
+    height: 620px;
+    background-color: rgb(255, 255, 255);
+    color: #750671;
+    border: 1px solid whitesmoke;
+    /* background-image: url(signup.jpg); */
+
+}
+
+.log{
+
+    border-radius: 9px;
+    width: 150px;
+    height: 50px;
+    border: solid #750671;
+    background-color: white;
+    color: #750671;
+    transition: all 0.3s ease-out;
+}
+
+.log:hover{
+
+    border: solid #750671;
+    color: white;
+    background-color: #750671;
+    transition: all 0.3s ease-out;
+}

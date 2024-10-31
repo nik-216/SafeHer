@@ -1,0 +1,41 @@
+.Status
+{
+    align-items: center;
+    top: 100px;
+    right: auto;
+    padding: 100px;
+    /* border: #750671 2px solid;/ */
+}
+.complaint_item
+{
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    border: #750671 solid 1px;
+    color: #750671;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.complaint_item .visible
+{
+    display: inline;
+    background-color: white;
+    color: #750671;
+    border: 1px solid #750671;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.3s ease-out;
+    margin: 5px;
+}
+
+.complaint_item .visible:hover{
+    background-color: #750671;
+    color: white;
+    transition: all 0.3s ease-out;
+}
+
+.complaint_item .invisible
+{
+    display: none;
+}

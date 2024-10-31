@@ -1,0 +1,32 @@
+.h {
+    color: #750671;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: xx-large;
+    font-style: normal;
+    margin-left: -150px;
+  }
+.login-choice
+{
+    margin-left: 520px;
+}
+
+.butt{
+  border: #750671 solid 1px;
+  font-family: "Playfair Display", serif;
+  border-radius: 5px;
+  color: #750671;
+  background-color: white;
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all 0.3s ease-out;
+}
+
+.butt:hover{
+  color: white;
+  background-color: #750671;
+  transition: all 0.3s ease-out;
+}

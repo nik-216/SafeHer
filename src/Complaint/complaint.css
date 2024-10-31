@@ -1,0 +1,47 @@
+
+
+
+
+.complaint-new {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: x-large;
+  font-style: normal;
+  color: #750671;
+}
+
+.note{
+  margin-left: 275px;
+}
+.complaint-details{
+  font-size: 25px;
+}
+.complaint form {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the form */
+}
+
+.complaint table {
+  width: 100%;
+}
+
+.complaint table td {
+  padding: 10px; /* Add padding to create spacing */
+  width: 50%; /* Make each cell occupy 50% of the table width */
+}
+
+.complaint label {
+  display: inline-block;
+  width: 100%;
+}
+.complaint{
+  margin-left: 150px;
+}
+.complaint textarea {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+}
+
+.complaint input[type="submit"] {
+  width: auto; /* Allow button width to adjust based on content */
+}

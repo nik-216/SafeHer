@@ -1,0 +1,46 @@
+/* lawyer.css */
+
+.lawyers-page {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #321341, #9c459f);
+    padding: 40px;
+}
+
+.lawyers {
+    max-width: 800px;
+    margin: auto;
+}
+
+.lawyers h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f9f9f9;
+}
+
+.lawyers-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.lawyer-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #750671;
+}
+
+.lawyer-card h3 {
+    color: #750671;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.lawyer-card p {
+    margin-bottom: 10px;
+}
+
+.lawyer-card strong {
+    font-weight: bold;
+}

@@ -1,0 +1,62 @@
+/* Company/company.css */
+.StatusCompany
+{
+    align-items: center;
+    top: 100px;
+    right: auto;
+    padding: 100px;
+}
+
+.StatusCompany .complaint_item
+{
+    align-items: center;
+    border: 1px solid #750671;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+.StatusCompany .complaint_item .visible
+{
+    display: inline;
+}
+
+.StatusCompany .complaint_item .invisible
+{
+    display: none;
+}
+
+.StatusCompany .complaint_item button
+{
+    margin-left: 20px;
+}
+
+.StatusCompany .complaint_item {
+    align-items: flex-start; /* Align items to the top */
+    border: 1px solid #750671;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative; /* Add position relative to create a positioning context for the button */
+}
+
+.StatusCompany .complaint_item .Ack_visible {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline;
+}
+
+.StatusCompany .complaint_item .Ack_invisible {
+    display: none;
+}
+
+.StatusCompany .complaint_item textarea {
+    width: 100%; /* Take up full width of parent */
+    height: 150px; /* Set desired height */
+    resize: none; /* Prevent resizing */
+    margin: auto; /* Center align horizontally */
+    display: block; /* Ensure it's a block-level element */
+    margin-top: 20px; /* Add some space from the elements above */
+    padding: 10px; /* Add padding for better appearance */
+}
+

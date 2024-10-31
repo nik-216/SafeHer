@@ -1,0 +1,58 @@
+.reports
+{
+    align-items: center;
+    margin-top: -150px;
+    /* top: 100px; */
+    right: auto;
+    padding: 20px;
+    color: #750671;
+}
+
+.user-name{
+    /* align-items: center; */
+    margin-top: 80px;
+    margin-left: 500px;
+    color: #750671;
+    /* margin-top: 200px; */
+
+}
+.track, .new
+{
+    border: 1px solid #750671;
+    text-align: center;
+}
+
+.reports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .track,
+  .new {
+    width: 200px;
+    height: 100px;
+    border: 1.5px solid #750671;
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px; /* Adjust margin for spacing */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .track:hover,
+  .new:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .track p,
+  .new p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
